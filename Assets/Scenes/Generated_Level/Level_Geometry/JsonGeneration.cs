@@ -43,6 +43,9 @@ public class JsonGeneration : MonoBehaviour
                 }
             }
         }
+        Destroy(wall);
+        Destroy(floor);
+        Destroy(this);
     }
 
     int index(int x, int y)
